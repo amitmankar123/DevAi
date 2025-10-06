@@ -77,5 +77,6 @@ DevAI/
 ├── package.json
 └── README.md
 
-
+./assets/room.png
+./assets/room.png
 
