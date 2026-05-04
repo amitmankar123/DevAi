@@ -19,11 +19,11 @@ const UserAuth = ({ children }) => {
         }
 
         if (!token) {
-            navigate('/login')
+            navigate('/')
         }
 
         if (!user) {
-            navigate('/login')
+            navigate('/')
         }
 
     }, [])
