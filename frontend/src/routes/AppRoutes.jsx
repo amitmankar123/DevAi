@@ -1,5 +1,6 @@
 
 import React from "react";
+import { Navigate } from "react-router-dom";
 import { Route, BrowserRouter, Routes } from "react-router-dom";
 import Home from "../screens/Home.jsx"
 import Login from "../screens/Login.jsx";
@@ -11,8 +12,8 @@ const AppRoutes = ()=>{
 
         <BrowserRouter>
        < Routes>
-       <Route path="/" element={<Home />} />
-        <Route path="/login" element={<Login />} />
+       <Route path="/" element={<Login/>} />
+        <Route path="/home" element={<Home />} />
         <Route path="/register" element={<Register />} />
         <Route path="/project" element={<UserAuth><Project /></UserAuth>} />
        </Routes>
